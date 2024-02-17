@@ -62,12 +62,12 @@ Below are the API endpoints implemented in the backend:
   ``` js
       api GET /api/initialize-db
   ```
-- **Not in Final Project**: I removed all this endpoint there is only one endpoint `combined-data` in final project
-  ``` plaintext
-  List Transactions: `GET /api/transactions?month=<month>&page=<page>&perPage=<perPage>&search=<search>`
-  Get Statistics: `GET /api/statistics?month=<month>`
-  Get Bar Chart Data: `GET /api/bar-chart?month=<month>`
-  Get Pie Chart Data: `GET /api/pie-chart?month=<month>`
+- **Not in Final Project**: I removed all this endpoint there is only one endpoint `combinedData` in final project
+  ``` js
+  List Transactions: GET /api/transactions?month=<month>&page=<page>&perPage=<perPage>&search=<search>,
+  Get Statistics: GET /api/statistics?month=<month>,
+  Get Bar Chart Data: GET /api/bar-chart?month=<month>,
+  Get Pie Chart Data: GET /api/pie-chart?month=<month>,
   ```
 - **Get Combined Data**:
   ```js
